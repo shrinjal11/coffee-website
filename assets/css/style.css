@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Ledger&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ledger", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* nav section */
+
+.navbar {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url(../image/banner-NNUw1Cr6Em.jpg);
+  background-size: cover;
+  
+}
+.navbar a.nav-link.active {
+  color: #f0ebeb;
+}
+a.nav-link {
+  color: rgb(211, 201, 179);
+  padding: 10px;
+
+  transition: color 0.07s ease;
+  font-size: large;
+  font-weight: 500;
+  margin: 0px 20px;
+  text-align: center;
+}
+
+.navbar .nav-link:focus,
+a.nav-link:hover,
+a.nav-link.active:hover {
+  color: #fff;
+  background-color: #a67060;
+  border-radius: 6px;
+  text-align: center;
+  transition: color 0.7s ease-out;
+}
+
+.text-coffee {
+  color: #5b4943;
+  border: #a67060;
+}
+
+.coffee {
+  color: #5b4943;
+  font-size: 40px;
+  font-weight: 900;
+}
+/* banner section */
+
+.hero {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+    url(../image/banner-NNUw1Cr6Em.png);
+  background-size: cover;
+  background-position: center;
+  text-align: justify;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.hero h1 {
+  font-family: "Clicker Script", cursive;
+
+  font-weight: 70;
+  font-style: normal;
+  font-size: 180px;
+}
+/* 
+best coffee section */
+
+.best-coffee {
+  text-align: justify;
+}
+.bg-offwhite {
+  background: rgb(253, 249, 241);
+}
+
+.bg-button {
+  background: rgb(251, 210, 140);
+  color: #5b4943;
+  text-decoration: none;
+  padding: 20px 15px;
+  font-size: 11px;
+}
+
+/* morning section */
+.morning {
+  background: linear-gradient(#3a2323e6, rgba(51, 31, 31, 0.6)),
+    url(../image/bsection.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* feedback section */
+
+.carousel-inner {
+  position: relative;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  path {
+    fill: #000; /* Customize arrow color */
+  }
+}
+.half-image {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+}
+.half-image img {
+  width: 100%;
+  display: block;
+}
+.carousel-item {
+  text-align: center;
+}
+
+/* subscribe section */
+.letter {
+  background: linear-gradient(#3a2323e6, rgba(51, 31, 31, 0.6)),
+    url(../image/bsection.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* footer section */
+.footer {
+  background: linear-gradient(#3f2e2ee6, rgba(72, 56, 56, 0.6)),
+    url(../image/footer.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.footer h5 {
+  font-family: "Clicker Script", cursive;
+  font-weight: 30;
+  font-style: normal;
+  font-size: 40px;
+}
+
+span {
+  font-family: "Style Script", cursive;
+}
+
+.size {
+  height: auto;
+}
